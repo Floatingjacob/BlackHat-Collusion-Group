@@ -1,6 +1,6 @@
 # Midterm-Group-Project
 
-GUIDELINES
+GUIDELINES (From Jeremy)
 
 Come up with a group/team name.
 Create a calculator similar to the attached image. It does not have to match this design, so feel free to take some liberties with it.
