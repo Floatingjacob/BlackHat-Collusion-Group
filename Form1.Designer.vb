@@ -22,36 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New ComponentModel.Container()
-        PictureBox1 = New PictureBox()
-        Timer1 = New Timer(components)
-        Timer2 = New Timer(components)
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        SuspendLayout()
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Location = New Point(192, 80)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(384, 256)
-        PictureBox1.TabIndex = 0
-        PictureBox1.TabStop = False
-        ' 
-        ' Form1
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        BackColor = SystemColors.ButtonHighlight
-        ClientSize = New Size(800, 450)
-        Controls.Add(PictureBox1)
-        Name = "Form1"
-        Text = "Form1"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        ResumeLayout(False)
+        components = New System.ComponentModel.Container()
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Text = "Form1"
     End Sub
-
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Timer2 As Timer
 
 End Class
