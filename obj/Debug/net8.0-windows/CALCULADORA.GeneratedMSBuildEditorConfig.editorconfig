@@ -1,6 +1,6 @@
 is_global = true
 build_property.ApplicationManifest = 
-build_property.StartupObject = Sub Main
+build_property.StartupObject = CALCULADORA.My.MyApplication
 build_property.ApplicationDefaultFont = 
 build_property.ApplicationHighDpiMode = 
 build_property.ApplicationUseCompatibleTextRendering = 
@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CALCULADORA
-build_property.ProjectDir = C:\Users\jamil\source\repos\Midterm-Group-Project\
+build_property.ProjectDir = C:\Users\jamil\source\repos\BlackHat-Collusion-\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

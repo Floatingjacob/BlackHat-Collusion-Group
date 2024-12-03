@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamil\\source\\repos\\Midterm-Group-Project\\CALCULADORA.vbproj": {}
+    "C:\\Users\\jamil\\source\\repos\\BlackHat-Collusion-\\CALCULADORA.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\jamil\\source\\repos\\Midterm-Group-Project\\CALCULADORA.vbproj": {
+    "C:\\Users\\jamil\\source\\repos\\BlackHat-Collusion-\\CALCULADORA.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamil\\source\\repos\\Midterm-Group-Project\\CALCULADORA.vbproj",
+        "projectUniqueName": "C:\\Users\\jamil\\source\\repos\\BlackHat-Collusion-\\CALCULADORA.vbproj",
         "projectName": "CALCULADORA",
-        "projectPath": "C:\\Users\\jamil\\source\\repos\\Midterm-Group-Project\\CALCULADORA.vbproj",
+        "projectPath": "C:\\Users\\jamil\\source\\repos\\BlackHat-Collusion-\\CALCULADORA.vbproj",
         "packagesPath": "C:\\Users\\jamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamil\\source\\repos\\Midterm-Group-Project\\obj\\",
+        "outputPath": "C:\\Users\\jamil\\source\\repos\\BlackHat-Collusion-\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
