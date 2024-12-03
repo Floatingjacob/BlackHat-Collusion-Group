@@ -31,7 +31,7 @@ Partial Class splash
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Location = New Point(2, 4)
+        PictureBox1.Location = New Point(2, 2)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(304, 200)
         PictureBox1.TabIndex = 0

@@ -52,7 +52,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
-        TextBox1.Text = ("The answer is: " & Add("1", "6"))
+        TextBox1.Text = "The answer is: " & Add(number1:=, number2:=)
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -68,26 +68,120 @@ Public Class Form1
     End Sub
 
     Public Function Add(number1 As Double, number2 As Double) As Double Implements ICalculator.Add
-        Throw New NotImplementedException()
+        Return number1 + number2
     End Function
 
     Public Function Divide(number1 As Double, number2 As Double) As Double Implements ICalculator.Divide
-        Throw New NotImplementedException()
+        Return number1 / number2
     End Function
 
     Public Function Multiply(number1 As Double, number2 As Double) As Double Implements ICalculator.Multiply
-        Throw New NotImplementedException()
+        Return number1 * number2
     End Function
 
     Public Function Squared(number1 As Double) As Double Implements ICalculator.Squared
-        Throw New NotImplementedException()
+        Return number1 ^ 2
     End Function
 
     Public Function SquareRoot(number1 As Double) As Double Implements ICalculator.SquareRoot
-        Throw New NotImplementedException()
+        Return Math.Sqrt(number1)
     End Function
 
     Public Function Subtract(number1 As Double, number2 As Double) As Double Implements ICalculator.Subtract
         Throw New NotImplementedException()
+    End Function
+    Private Function DoSomeMath(num1 As Integer, operator1 As String, num2 As Integer) As String
+        Dim result1 As Double
+        Select Case operator1
+            Case "+"
+                result1 = num1 + num2
+            Case "-"
+                result1 = num1 - num2
+            Case "*"
+                result1 = num1 * num2
+            Case "/"
+                result1 = num1 / num2
+            Case Else
+                Return "Invalid operator"
+        End Select
+        Return $"{num1} {operator1} {num2} = {result1}"
+    End Function
+
+    Private Function DoSomeMath(num1 As Integer, operator1 As String, num2 As Integer, operator2 As String, num3 As Integer) As String
+        Dim result1 As Double
+        Select Case operator1
+            Case "+"
+                result1 = num1 + num2
+            Case "-"
+                result1 = num1 - num2
+            Case "*"
+                result1 = num1 * num2
+            Case "/"
+                result1 = num1 / num2
+            Case Else
+                Return "Invalid operator"
+        End Select
+
+        Dim result2 As Double
+        Select Case operator2
+            Case "+"
+                result2 = result1 + num3
+            Case "-"
+                result2 = result1 - num3
+            Case "*"
+                result2 = result1 * num3
+            Case "/"
+                result2 = result1 / num3
+            Case Else
+                Return "Invalid operator"
+        End Select
+
+        Return $"{num1} {operator1} {num2} {operator2} {num3} = {result2}"
+    End Function
+
+    Private Function DoSomeMath(num1 As Integer, operator1 As String, num2 As Integer, operator2 As String, num3 As Integer, operator3 As String, num4 As Integer) As String
+        Dim result1 As Double
+        Select Case operator1
+            Case "+"
+                result1 = num1 + num2
+            Case "-"
+                result1 = num1 - num2
+            Case "*"
+                result1 = num1 * num2
+            Case "/"
+                result1 = num1 / num2
+            Case Else
+                Return "Invalid operator"
+        End Select
+
+        Dim result2 As Double
+        Select Case operator2
+            Case "+"
+                result2 = result1 + num3
+            Case "-"
+                result2 = result1 - num3
+            Case "*"
+                result2 = result1 * num3
+            Case "/"
+                result2 = result1 / num3
+            Case Else
+                Return "Invalid operator"
+        End Select
+
+        Dim result3 As Double
+        Select Case operator3
+            Case "+"
+                result3 = result2 + num4
+            Case "-"
+                result3 = result2 - num4
+            Case "*"
+                result3 = result2 * num4
+            Case "/"
+                result3 = result2 / num4
+            Case Else
+                Return "Invalid operator"
+        End Select
+
+        Return $"{num1} {operator1} {num2} {operator2} {num3} {operator3} {num4} = {result3}"
     End Function
 End Class
