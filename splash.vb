@@ -16,7 +16,6 @@ Public Class splash
         initialWaitTimer.Interval = initialWaitTime
         AddHandler initialWaitTimer.Tick, AddressOf InitialWaitTimer_Tick
         initialWaitTimer.Start()
-
         PictureBox1.Image = Image.FromFile("blackhat.png")
     End Sub
 
@@ -60,4 +59,5 @@ Public Class splash
             e.Graphics.DrawImage(PictureBox1.Image, New Rectangle(0, 0, PictureBox1.Width, PictureBox1.Height), 0, 0, PictureBox1.Image.Width, PictureBox1.Image.Height, GraphicsUnit.Pixel, attributes)
         End If
     End Sub
+
 End Class

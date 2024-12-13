@@ -1,6 +1,7 @@
-﻿Public Class Form1
-    Implements ICalculator
+﻿Imports System.ComponentModel
 
+Public Class Form1
+    Implements ICalculator
     Private Sub BtnVal_Click(sender As Object, e As EventArgs) Handles BtnVal0.Click, BtnVal1.Click, BtnVal2.Click, BtnVal3.Click, BtnVal4.Click, BtnVal5.Click, BtnVal6.Click, BtnVal7.Click, BtnVal8.Click, BtnVal9.Click
         Dim button As Button = CType(sender, Button)
         TextBox1.AppendText(button.Text)
@@ -40,6 +41,7 @@
         Dim dataTable As New DataTable()
         Dim result As Object = dataTable.Compute(expression, Nothing)
         Return Convert.ToDouble(result)
+
     End Function
 
     Private Function ExtractNumberBeforeOperator(expression As String, index As Integer) As String
@@ -79,8 +81,8 @@
         Return number
     End Function
 
-    Private Sub BtnClear_Click(sender As Object, e As EventArgs) Handles Btn.Click
-        TextBox1.Clear()
+    Private Sub Btndecimal_Click(sender As Object, e As EventArgs) Handles Btndecimal.Click
+        TextBox1.AppendText(".")
     End Sub
 
     Public Function Add(number1 As Double, number2 As Double) As Double Implements ICalculator.Add
@@ -127,5 +129,20 @@
     Private Sub BtnSqrt_Click(sender As Object, e As EventArgs) Handles BtnSqrt.Click
         TextBox1.AppendText("√")
     End Sub
->>>>>>>>> Temporary merge branch 2
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox1.AppendText("^2")
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        TextBox1.AppendText("^3")
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        splash.Show()
+    End Sub
+
+    Private Sub Form1_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        splash.Close()
+    End Sub
 End Class

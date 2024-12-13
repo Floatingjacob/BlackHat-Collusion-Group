@@ -25,7 +25,7 @@ Partial Class Form1
         TextBox1 = New TextBox()
         Button1 = New Button()
         Button2 = New Button()
-        Btn = New Button()
+        Btndecimal = New Button()
         BtnVal3 = New Button()
         BtnVal6 = New Button()
         BtnVal5 = New Button()
@@ -75,15 +75,15 @@ Partial Class Form1
         Button2.Text = "X²"
         Button2.UseVisualStyleBackColor = True
         ' 
-        ' Btn
+        ' Btndecimal
         ' 
-        Btn.Font = New Font("Microsoft Sans Serif", 20F)
-        Btn.Location = New Point(96, 360)
-        Btn.Name = "Btn"
-        Btn.Size = New Size(75, 71)
-        Btn.TabIndex = 3
-        Btn.Text = "."
-        Btn.UseVisualStyleBackColor = True
+        Btndecimal.Font = New Font("Microsoft Sans Serif", 20F)
+        Btndecimal.Location = New Point(96, 360)
+        Btndecimal.Name = "Btndecimal"
+        Btndecimal.Size = New Size(75, 71)
+        Btndecimal.TabIndex = 3
+        Btndecimal.Text = "."
+        Btndecimal.UseVisualStyleBackColor = True
         ' 
         ' BtnVal3
         ' 
@@ -290,12 +290,12 @@ Partial Class Form1
         Controls.Add(BtnVal5)
         Controls.Add(BtnVal6)
         Controls.Add(BtnVal3)
-        Controls.Add(Btn)
+        Controls.Add(Btndecimal)
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(TextBox1)
         Name = "Form1"
-        Text = "Form1"
+        Text = "Calculator"
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -303,7 +303,7 @@ Partial Class Form1
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Btn As Button
+    Friend WithEvents Btndecimal As Button
     Friend WithEvents BtnVal3 As Button
     Friend WithEvents BtnVal6 As Button
     Friend WithEvents BtnVal5 As Button

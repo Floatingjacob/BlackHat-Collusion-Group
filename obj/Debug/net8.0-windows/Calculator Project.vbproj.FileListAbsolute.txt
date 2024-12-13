@@ -1,0 +1,8 @@
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator_Project.Form1.resources
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator_Project.splash.resources
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator Project.vbproj.GenerateResource.cache
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator Project.AssemblyInfoInputs.cache
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator Project.AssemblyInfo.vb
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator Project.vbproj.CoreCompileInputs.cache
+C:\Users\jamil\source\repos\BlackHat-Collusion-\obj\Debug\net8.0-windows\Calculator Project.sourcelink.json

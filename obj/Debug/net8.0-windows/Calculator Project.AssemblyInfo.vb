@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("CALCULADORA"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("Calculator Project"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f7b5950e0750ab0b353503623459dabb282fa89"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("CALCULADORA"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("CALCULADORA"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e55566a962b175bd6e0e5f80192ca78d79c19f9e"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("Calculator Project"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("Calculator Project"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
