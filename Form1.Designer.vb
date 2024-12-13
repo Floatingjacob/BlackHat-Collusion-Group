@@ -57,7 +57,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Microsoft Sans Serif", 20F)
+        Button1.Font = New Font("Microsoft Sans Serif", 20.0F)
         Button1.Location = New Point(258, 206)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 71)
@@ -67,7 +67,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Font = New Font("Microsoft Sans Serif", 15F)
+        Button2.Font = New Font("Microsoft Sans Serif", 15.0F)
         Button2.Location = New Point(98, 91)
         Button2.Name = "Button2"
         Button2.Size = New Size(75, 35)
@@ -77,7 +77,7 @@ Partial Class Form1
         ' 
         ' Btn
         ' 
-        Btn.Font = New Font("Microsoft Sans Serif", 20F)
+        Btn.Font = New Font("Microsoft Sans Serif", 20.0F)
         Btn.Location = New Point(96, 360)
         Btn.Name = "Btn"
         Btn.Size = New Size(75, 71)
@@ -87,7 +87,7 @@ Partial Class Form1
         ' 
         ' BtnVal3
         ' 
-        BtnVal3.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal3.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal3.Location = New Point(176, 283)
         BtnVal3.Name = "BtnVal3"
         BtnVal3.Size = New Size(75, 71)
@@ -97,7 +97,7 @@ Partial Class Form1
         ' 
         ' BtnVal6
         ' 
-        BtnVal6.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal6.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal6.Location = New Point(178, 206)
         BtnVal6.Name = "BtnVal6"
         BtnVal6.Size = New Size(75, 71)
@@ -107,7 +107,7 @@ Partial Class Form1
         ' 
         ' BtnVal5
         ' 
-        BtnVal5.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal5.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal5.Location = New Point(96, 206)
         BtnVal5.Name = "BtnVal5"
         BtnVal5.Size = New Size(75, 71)
@@ -117,7 +117,7 @@ Partial Class Form1
         ' 
         ' BtnVal7
         ' 
-        BtnVal7.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal7.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal7.Location = New Point(16, 128)
         BtnVal7.Name = "BtnVal7"
         BtnVal7.Size = New Size(75, 71)
@@ -127,7 +127,7 @@ Partial Class Form1
         ' 
         ' BtnVal0
         ' 
-        BtnVal0.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal0.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal0.Location = New Point(16, 360)
         BtnVal0.Name = "BtnVal0"
         BtnVal0.Size = New Size(75, 71)
@@ -137,7 +137,7 @@ Partial Class Form1
         ' 
         ' Button9
         ' 
-        Button9.Font = New Font("Microsoft Sans Serif", 20F)
+        Button9.Font = New Font("Microsoft Sans Serif", 20.0F)
         Button9.Location = New Point(176, 359)
         Button9.Name = "Button9"
         Button9.Size = New Size(75, 71)
@@ -147,7 +147,7 @@ Partial Class Form1
         ' 
         ' Button10
         ' 
-        Button10.Font = New Font("Microsoft Sans Serif", 20F)
+        Button10.Font = New Font("Microsoft Sans Serif", 20.0F)
         Button10.Location = New Point(256, 283)
         Button10.Name = "Button10"
         Button10.Size = New Size(75, 71)
@@ -157,7 +157,7 @@ Partial Class Form1
         ' 
         ' BtnVal4
         ' 
-        BtnVal4.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal4.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal4.Location = New Point(16, 206)
         BtnVal4.Name = "BtnVal4"
         BtnVal4.Size = New Size(75, 71)
@@ -177,7 +177,7 @@ Partial Class Form1
         ' 
         ' BtnSqrt
         ' 
-        BtnSqrt.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnSqrt.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnSqrt.Location = New Point(18, 91)
         BtnSqrt.Name = "BtnSqrt"
         BtnSqrt.Size = New Size(75, 35)
@@ -187,7 +187,7 @@ Partial Class Form1
         ' 
         ' BtnVal8
         ' 
-        BtnVal8.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal8.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal8.Location = New Point(98, 128)
         BtnVal8.Name = "BtnVal8"
         BtnVal8.Size = New Size(75, 71)
@@ -197,7 +197,7 @@ Partial Class Form1
         ' 
         ' Button15
         ' 
-        Button15.Font = New Font("Microsoft Sans Serif", 15F)
+        Button15.Font = New Font("Microsoft Sans Serif", 15.0F)
         Button15.Location = New Point(178, 91)
         Button15.Name = "Button15"
         Button15.Size = New Size(75, 35)
@@ -207,7 +207,7 @@ Partial Class Form1
         ' 
         ' BtnVal1
         ' 
-        BtnVal1.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal1.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal1.Location = New Point(16, 283)
         BtnVal1.Name = "BtnVal1"
         BtnVal1.Size = New Size(75, 71)
@@ -217,7 +217,7 @@ Partial Class Form1
         ' 
         ' BtnVal9
         ' 
-        BtnVal9.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal9.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal9.Location = New Point(180, 128)
         BtnVal9.Name = "BtnVal9"
         BtnVal9.Size = New Size(75, 71)
@@ -227,7 +227,7 @@ Partial Class Form1
         ' 
         ' BtnVal2
         ' 
-        BtnVal2.Font = New Font("Microsoft Sans Serif", 20F)
+        BtnVal2.Font = New Font("Microsoft Sans Serif", 20.0F)
         BtnVal2.Location = New Point(96, 283)
         BtnVal2.Name = "BtnVal2"
         BtnVal2.Size = New Size(75, 71)
@@ -237,7 +237,7 @@ Partial Class Form1
         ' 
         ' Button19
         ' 
-        Button19.Font = New Font("Microsoft Sans Serif", 20F)
+        Button19.Font = New Font("Microsoft Sans Serif", 20.0F)
         Button19.Location = New Point(256, 359)
         Button19.Name = "Button19"
         Button19.Size = New Size(75, 71)
@@ -247,7 +247,7 @@ Partial Class Form1
         ' 
         ' Button20
         ' 
-        Button20.Font = New Font("Microsoft Sans Serif", 20F)
+        Button20.Font = New Font("Microsoft Sans Serif", 20.0F)
         Button20.Location = New Point(260, 128)
         Button20.Name = "Button20"
         Button20.Size = New Size(75, 71)
@@ -258,7 +258,7 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Microsoft Sans Serif", 25F)
+        Label1.Font = New Font("Microsoft Sans Serif", 25.0F)
         Label1.ForeColor = Color.White
         Label1.Location = New Point(38, 16)
         Label1.Name = "Label1"
@@ -268,7 +268,7 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Black
         ClientSize = New Size(356, 456)
