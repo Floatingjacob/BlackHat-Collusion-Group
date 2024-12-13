@@ -242,7 +242,7 @@ Partial Class Form1
         Button19.Name = "Button19"
         Button19.Size = New Size(75, 71)
         Button19.TabIndex = 20
-        Button19.Text = "=" + vbCrLf
+        Button19.Text = "=" & vbCrLf
         Button19.UseVisualStyleBackColor = True
         ' 
         ' Button20
