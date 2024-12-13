@@ -1,5 +1,6 @@
-﻿Public Class Form1
+Public Class Form1
     Implements ICalculator
+
     Private Sub BtnVal_Click(sender As Object, e As EventArgs) Handles BtnVal0.Click, BtnVal1.Click, BtnVal2.Click, BtnVal3.Click, BtnVal4.Click, BtnVal5.Click, BtnVal6.Click, BtnVal7.Click, BtnVal8.Click, BtnVal9.Click
         Dim button As Button = CType(sender, Button)
         TextBox1.AppendText(button.Text)
@@ -21,6 +22,14 @@
     End Sub
 
     Private Function EvaluateExpression(expression As String) As Double
+        While expression.Contains("^")
+            Dim index As Integer = expression.IndexOf("^")
+            Dim baseNumber As String = ExtractNumberBeforeOperator(expression, index)
+            Dim exponent As String = ExtractNumberAfterOperator(expression, index)
+            Dim powerValue As Double = Math.Pow(Convert.ToDouble(baseNumber), Convert.ToDouble(exponent))
+            expression = expression.Replace($"{baseNumber}^{exponent}", powerValue.ToString())
+        End While
+
         While expression.Contains("√")
             Dim index As Integer = expression.IndexOf("√")
             Dim number As String = ExtractNumberAfterSqrt(expression, index)
@@ -31,6 +40,30 @@
         Dim dataTable As New DataTable()
         Dim result As Object = dataTable.Compute(expression, Nothing)
         Return Convert.ToDouble(result)
+    End Function
+
+    Private Function ExtractNumberBeforeOperator(expression As String, index As Integer) As String
+        Dim number As String = ""
+        For i = index - 1 To 0 Step -1
+            If Char.IsDigit(expression(i)) OrElse expression(i) = "." Then
+                number = expression(i) & number
+            Else
+                Exit For
+            End If
+        Next
+        Return number
+    End Function
+
+    Private Function ExtractNumberAfterOperator(expression As String, index As Integer) As String
+        Dim number As String = ""
+        For i = index + 1 To expression.Length - 1
+            If Char.IsDigit(expression(i)) OrElse expression(i) = "." Then
+                number &= expression(i)
+            Else
+                Exit For
+            End If
+        Next
+        Return number
     End Function
 
     Private Function ExtractNumberAfterSqrt(expression As String, index As Integer) As String
@@ -93,5 +126,13 @@
 
     Private Sub BtnSqrt_Click(sender As Object, e As EventArgs) Handles BtnSqrt.Click
         TextBox1.AppendText("√")
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox1.AppendText("^2")
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        TextBox1.AppendText("^3")
     End Sub
 End Class
