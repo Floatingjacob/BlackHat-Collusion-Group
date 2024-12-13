@@ -48,7 +48,6 @@
 
     Private Sub BtnClear_Click(sender As Object, e As EventArgs) Handles Btn.Click
         TextBox1.Clear()
-        mathed = 0
     End Sub
 
     Public Function Add(number1 As Double, number2 As Double) As Double Implements ICalculator.Add
