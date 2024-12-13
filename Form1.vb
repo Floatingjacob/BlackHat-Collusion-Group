@@ -1,4 +1,4 @@
-Public Class Form1
+﻿Public Class Form1
     Implements ICalculator
 
     Private Sub BtnVal_Click(sender As Object, e As EventArgs) Handles BtnVal0.Click, BtnVal1.Click, BtnVal2.Click, BtnVal3.Click, BtnVal4.Click, BtnVal5.Click, BtnVal6.Click, BtnVal7.Click, BtnVal8.Click, BtnVal9.Click
@@ -127,12 +127,5 @@ Public Class Form1
     Private Sub BtnSqrt_Click(sender As Object, e As EventArgs) Handles BtnSqrt.Click
         TextBox1.AppendText("√")
     End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        TextBox1.AppendText("^2")
-    End Sub
-
-    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
-        TextBox1.AppendText("^3")
-    End Sub
+>>>>>>>>> Temporary merge branch 2
 End Class
